@@ -42,14 +42,15 @@ export default function Todo () {
         setTask(updatedTask);
     };
     return (
-        <div>
+        <div className="Todo-B">
+            <div className="Todo-p">
             <header>
                 <h1>TODO APP</h1>
             </header>
         <section className="todo-task">
             <form onSubmit={handleTaskInput}>
                 <input type="text" value={inputValue} onChange={handleInputValue} />
-                <button type="submit">Add Task</button>
+                <button className="s-btn" type="submit">Add Task</button>
             </form>
         </section>
         <ul>
@@ -69,6 +70,7 @@ export default function Todo () {
                     );
                 })}
         </ul>
+        </div>
         </div>
     );
 };

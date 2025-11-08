@@ -1,0 +1,19 @@
+.ContactForm{
+    background-color: #006D77;
+    padding: 100px;
+    height: 650px;
+}
+.Contactf{
+    margin-left: 300px;
+    /* margin-top: 150px; */
+}
+.Cf-btn {
+    background-color: #83C5BE;
+}
+.ContactForm h1{
+    background-color: white;
+    width: 130px;
+    /* margin-left:500px; */
+    padding: 10px;
+    margin-top: 20px;
+}

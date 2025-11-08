@@ -1,1 +1,34 @@
-/* .About {background-color: red;}git */
+.About {
+        background-color: #588157;
+        margin-left: 150px;
+        margin-top: 80px;  
+        box-shadow: 0px 2px 6px;
+        border-radius: 10px;
+        height: 550px;
+        width: 1000px;
+        padding: 30px; 
+    }
+    .About-Head img{
+        border-radius: 20px;
+    }
+    .About p{
+        color: #DAD7CD;
+        margin-top: 10px;
+    }
+    .About-Head{
+        display: flex;
+        gap: 200px;
+    }
+    .About h1{
+        color: #a2dbac;
+    }
+    .About h2{
+        padding: 25px;
+        color: #9ea88d;
+    }
+    .About-img{
+        display: flex;
+        height: 160px;
+        padding: 5px;
+        justify-content: space-around;
+    }

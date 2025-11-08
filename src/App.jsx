@@ -25,7 +25,7 @@ function App() {
       {/* <Intro /> */}
       {/* <Cards /> */}
       {/* <Projects /> */}
-      <Footer />
+      {/* <Footer /> */}
       {/* <Calculator/> */}
       {/* <ContactForm/> */}
       <Routes>
@@ -35,7 +35,6 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/" element={<NotFound />} />
         <Route path="weather" element={<Weather />} />
-        {/* <Route path='/todoapp' element={<TodoApp />} /> */}
         <Route path="/calculator" element={<Calculator />} />
       </Routes>
       {/* <Login /> */}

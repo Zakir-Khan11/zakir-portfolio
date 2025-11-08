@@ -1,3 +1,11 @@
+.Todo-B{
+    background-color: #E36414;
+    height: 650px;
+    padding: 250px;
+}
+.Todo-p{
+    margin-left: 280px;
+}
 .complete-list {
    list-style:  none;
    display: grid;
@@ -22,4 +30,8 @@
 .checked span{
     text-decoration:line-through;
     color: gray;
+}
+.s-btn{
+    background-color: #FBA04B;
+    ;
 }
