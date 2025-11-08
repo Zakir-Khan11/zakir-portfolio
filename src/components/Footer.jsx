@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
-import { FaSquareInstagram } from "react-icons/fa6"
+import { FaSquareInstagram } from "react-icons/fa6";
 export default function Footer() {
   return (
     <>

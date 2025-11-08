@@ -5,6 +5,7 @@ import { CiMenuFries } from "react-icons/ci";
 import { TiHome } from "react-icons/ti";
 import { IoMdContact } from "react-icons/io";
 import { FcTodoList } from "react-icons/fc";
+import { FcAbout } from "react-icons/fc";
 import { useState } from 'react';
 export default function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -28,7 +29,7 @@ export default function Navbar() {
             <Link className='nav-link' to="/todoapp"><FcTodoList />TodoApp</Link>
             </li>
         <li>
-            <Link className='nav-link' to="/about">About</Link>
+            <Link className='nav-link' to="/about"><FcAbout />About</Link>
             </li>
       </ul>
       </nav>

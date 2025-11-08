@@ -10,14 +10,17 @@
     }
     .About-Head img{
         border-radius: 20px;
+        width: 150px;
     }
     .About p{
         color: #DAD7CD;
         margin-top: 10px;
+        padding: 10px;
     }
     .About-Head{
         display: flex;
-        gap: 200px;
+        gap: 150px;
+        
     }
     .About h1{
         color: #a2dbac;
@@ -28,7 +31,7 @@
     }
     .About-img{
         display: flex;
-        height: 160px;
+        height: 150px;
         padding: 5px;
         justify-content: space-around;
     }

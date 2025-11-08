@@ -1,4 +1,7 @@
 import React from 'react'
+import { FaLinkedin } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
 import './About.css'
 import Navbar from '../components/Navbar'
 export default function About() {
@@ -8,7 +11,7 @@ export default function About() {
     <div className='About'>
       <div className='About-Head'>
       <h1>MUHAMMAD ZAKIR KHAN<br />
-      03010448188
+      03010448188 <br />
       hafizmuhammadzakirkhan@gmail.com <br />
       </h1>
       <img src="my-pic.jfif" alt="" />
@@ -20,6 +23,14 @@ I’m familiar with HTML, CSS, JavaScript, and React.js, and I love turning idea
 
 In my free time, I enjoy playing football, exploring new technologies, and solving coding challenges.
     </p>
+    <a href="https://www.linkedin.com/in/zakir-k-a6510938b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+            <FaLinkedin />
+            LinkedIn
+          </a>
+           <a href="https://www.facebook.com/share/1EX2XjnV9c/?mibextid=wwXIfr"><FaFacebookSquare />Facebook
+                    </a>
+                    <a href="https://www.instagram.com/muhammad__zakir_khan?igsh=aHB6bGRsczh5M2Vt&utm_source=qr"><FaSquareInstagram />Instagram
+                              </a>
     <h2>MY PROJECTS</h2>
     <div className='About-img'>
       <img src="calculator.webp" alt="" />
