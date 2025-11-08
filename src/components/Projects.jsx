@@ -22,7 +22,7 @@ export default function Projects() {
 
       <div className="card-text">
       <img src="calculator.webp" alt="" />
-      <button className='btn-open' onClick={() => navigate()}>OPEN</button>
+      <button className='btn-open'>OPEN</button>
         <h2>Calculator</h2>
         <p>
           A calculator is an electronic device used to perform mathematical calculations, from simple arithmetic to
