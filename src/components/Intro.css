@@ -1,0 +1,39 @@
+ .container{
+    width: 100vw;
+    margin-top: 50px;
+         padding: 70px 20px;
+         background-image: url("star-puc.jpg");
+         /* background-repeat: no-repeat; */
+         background-size: cover;
+        display: grid;
+        grid-template-columns: 1.5fr 0.5fr;
+        justify-items: center;
+        }
+        .container img {
+            border-radius: 100px;
+            display: flex;
+            /* margin-left: 900px; */
+        }
+        .container h1{
+            color: #CAD2C5;
+        }
+        .container p {
+            color: #CAD2C5;
+        }
+        .btn{
+            background-color: #FDA10D;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            cursor: pointer;
+            width: 200px;
+            
+        }
+.details p{
+    margin-top: 20px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

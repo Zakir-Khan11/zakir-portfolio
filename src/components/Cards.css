@@ -1,0 +1,23 @@
+ .Speaker{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 10px;
+            background-color: #C0CABA;
+        }
+        .Speaker h1{
+            margin-top: 30px;
+            padding: 20px;
+            color: #012234;
+        }
+        .speaker-card{
+            background: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 6px;
+            width: 300px;
+            text-align: center;
+            padding: 30px;   
+            margin-top: 80px;
+            background-color: white;
+            margin-block-end: 30px;
+        }
