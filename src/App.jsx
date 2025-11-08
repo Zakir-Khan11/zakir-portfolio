@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Intro from "./components/Intro";
-import Cards from "./components/Cards";
-import Projects from "./components/Projects";
-import Footer from "./components/Footer";
+// import Navbar from "./components/Navbar";
+// import Intro from "./components/Intro";
+// import Cards from "./components/Cards";
+// import Projects from "./components/Projects";
+// import Footer from "./components/Footer";
 // import Calculator from './components/Calculator'
 
 // import ContactForm from './components/ContactForm';
@@ -21,10 +21,10 @@ import Calculator from "./components/Calculator";
 function App() {
   return (
     <>
-      <Navbar />
-      <Intro />
-      <Cards />
-      <Projects />
+      {/* <Navbar /> */}
+      {/* <Intro /> */}
+      {/* <Cards /> */}
+      {/* <Projects /> */}
       <Footer />
       {/* <Calculator/> */}
       {/* <ContactForm/> */}
